@@ -26,29 +26,29 @@
 # 
 # vlog -vlog01compat -work work +incdir+D:/FPGA/Lab3/Vending\ Machine\ in\ Lecture\ Slide/RTL {D:/FPGA/Lab3/Vending Machine in Lecture Slide/RTL/intermediate_VM.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 22:04:43 on Nov 05,2024
+# Start time: 22:19:24 on Nov 10,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA/Lab3/Vending Machine in Lecture Slide/RTL" D:/FPGA/Lab3/Vending Machine in Lecture Slide/RTL/intermediate_VM.v 
 # -- Compiling module intermediate_VM
 # 
 # Top level modules:
 # 	intermediate_VM
-# End time: 22:04:43 on Nov 05,2024, Elapsed time: 0:00:00
+# End time: 22:19:25 on Nov 10,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+D:/FPGA/Lab3/Vending\ Machine\ in\ Lecture\ Slide/Quartus_prj/../Sim {D:/FPGA/Lab3/Vending Machine in Lecture Slide/Quartus_prj/../Sim/tb_intermediate_VM.v}
 # Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
-# Start time: 22:04:44 on Nov 05,2024
+# Start time: 22:19:25 on Nov 10,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA/Lab3/Vending Machine in Lecture Slide/Quartus_prj/../Sim" D:/FPGA/Lab3/Vending Machine in Lecture Slide/Quartus_prj/../Sim/tb_intermediate_VM.v 
 # -- Compiling module tb_intermediate_VM
 # 
 # Top level modules:
 # 	tb_intermediate_VM
-# End time: 22:04:44 on Nov 05,2024, Elapsed time: 0:00:00
+# End time: 22:19:25 on Nov 10,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_intermediate_VM
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_intermediate_VM 
-# Start time: 22:04:46 on Nov 05,2024
+# Start time: 22:19:27 on Nov 10,2024
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
 # ** Note: (vopt-143) Recognized 1 FSM in module "intermediate_VM(fast)".
@@ -62,7 +62,3 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run 1 us
-run
-run
-# End time: 22:11:41 on Nov 05,2024, Elapsed time: 0:06:55
-# Errors: 0, Warnings: 1

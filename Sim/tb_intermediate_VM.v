@@ -25,19 +25,19 @@ always #10 sys_clk = ~sys_clk;
  else
  random_data_gen <= {$random} % 2;
 
- //pi_money_one:模拟投入1元的情况
+
  always@(posedge sys_clk or negedge sys_rst_n)
  if(sys_rst_n == 1'b0)
  pi_money_one <= 1'b0;
  else
  pi_money_one <= random_data_gen;
 
- //pi_money_half:模拟投入0.5元的情况
+
  always@(posedge sys_clk or negedge sys_rst_n)
  if(sys_rst_n == 1'b0)
  pi_money_half <= 1'b0;
  else
- //取反是因为一次只能投一个币，即pi_money_one和pi_money_half不能同时为1
+
  pi_money_half <= ~random_data_gen;
 
  wire [3:0] state = intermediate_VM_inst.state;
